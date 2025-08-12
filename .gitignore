@@ -1,0 +1,50 @@
+# -> Python virtual environments
+venv/
+env/
+.venv/
+
+# -> Bytecode, caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -> Jupyter
+.ipynb_checkpoints/
+
+# -> Editor/OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# -> Python packaging
+*.egg-info/
+dist/
+build/
+
+# -> Logs and runtime files
+*.log
+logs/
+.tmp/
+
+# -> Model checkpoints and data you don't want in repo
+models/
+checkpoints/
+outputs/
+
+#casue the data is about 100GB or so..
+data/
+
+
+# -> Secrets / environment
+.env
+*.pem
+*.key
+
+# -> Optional: lock files you don't want
+pip-log.txt
+
+# -> Windows Python cache
+python.exe
