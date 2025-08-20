@@ -2,14 +2,14 @@ import h5py
 import pandas as pd
 import os
 
-csd_path = r"F:\EVERYTHING\arjun folder\college files\4 fourth year\SEM 7\major_project(batch25)\datasets\CMU-MOSEI\CMU_MOSEI_TimestampedWordVectors.csd"
+csd_path = r"F:\EVERYTHING\arjun folder\college files\4 fourth year\SEM 7\major_project(batch25)\datasets\CMU-MOSEI\CMU_MOSEI_VisualFacet42.csd"
 output_dir = "data"
 os.makedirs(output_dir, exist_ok=True)
 i=0
 
 with h5py.File(csd_path, "r") as f:
-    covarep_group = f['glove_vectors']
-    data_group = covarep_group['data']
+    facet_group = f['FACET 4.2']
+    data_group = facet_group['data']
     utterance_ids = list(data_group.keys())
     print(f"Total utterances: {len(utterance_ids)}")
     
