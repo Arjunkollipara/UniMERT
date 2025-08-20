@@ -2,7 +2,7 @@ import h5py
 import pandas as pd
 import os
 
-csd_path = r"F:\EVERYTHING\arjun folder\college files\4 fourth year\SEM 7\major_project(batch25)\datasets\CMU-MOSEI\CMU_MOSEI_OpenFace2.csd"
+csd_path = r"F:\EVERYTHING\arjun folder\college files\4 fourth year\SEM 7\major_project(batch25)\datasets\CMU-MOSEI\CMU_MOSEI_COVAREP.csd"
 output_dir = "data"
 os.makedirs(output_dir, exist_ok=True)
 
