@@ -1,10 +1,10 @@
-# DFG-ML-MOSEI
+# UniMERT (Unified Multimodal Emotion Recognition Transformer)
 
 Overview : 
 
 
 
-DFG-MOSEI is an experimental research project aimed at recreating and extending the Dynamic Fusion Graph (DFG) architecture for multimodal emotion and sentiment recognition using the CMU-MOSEI dataset. Since the original DFG implementation is not open-source, this project builds it from scratch, leveraging the pre-extracted and transformed features for text (BERT), audio (COVAREP), and visual (OpenFace2) modalities. The ultimate goal is to train a machine learning model that dynamically selects and fuses the most informative modalities for a given utterance, thereby improving the accuracy and robustness of emotion and sentiment classification.
+UniMERT is an experimental research project aimed at recreating and extending the Dynamic Fusion Graph (DFG) architecture for multimodal emotion and sentiment recognition using the CMU-MOSEI dataset. Since the original DFG implementation is not open-source, this project builds it from scratch, leveraging the pre-extracted and transformed features for text (BERT), audio (COVAREP), and visual (OpenFace2) modalities. The ultimate goal is to train a machine learning model that dynamically selects and fuses the most informative modalities for a given utterance, thereby improving the accuracy and robustness of emotion and sentiment classification.
 
 
 
