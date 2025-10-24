@@ -9,20 +9,9 @@ UniMERT is an experimental research project aimed at recreating and extending th
 
 
 Past :
-
-
-
--> The CMU-MOSEI dataset is a benchmark dataset for multimodal sentiment and emotion recognition, containing synchronized text, audio, and visual features for over 23,000 video utterances.
-
--> The Dynamic Fusion Graph (DFG) architecture, introduced in research papers, achieves state-of-the-art performance by dynamically deciding which modalities to fuse for each prediction.
-
--> The original DFG implementation was not open-source, making replication and experimentation difficult.
-
-
+The CMU-MOSEI dataset is a benchmark dataset for multimodal sentiment and emotion recognition, containing synchronized text, audio, and visual features for over 23,000 video utterances, the Dynamic Fusion Graph (DFG) architecture, introduced in research papers, achieves state-of-the-art performance by dynamically deciding which modalities to fuse for each prediction.The original DFG implementation was not open-source, making replication and experimentation difficult.
 
 Present :
-
-
 
 -> We have obtained preprocessed .csd files containing feature representations for each modality:
     
